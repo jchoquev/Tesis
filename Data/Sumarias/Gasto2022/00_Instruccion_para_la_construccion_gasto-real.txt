@@ -1,0 +1,34 @@
+
+CONSTRUCCION DEL GASTO E INGRESO REAL 2011 - 2022 NUEVA METODOLOGIA
+
+
+Pasos a seguir para la construcción de variables del gasto e ingreso real:
+
+
+1. Copiar el zipeado "ConstVarGasto-nuevaMetodologia.ZIP" en el disco D. Luego realizar el desempaquetado.
+
+
+2. A continuación preparar los archivos en STATA: 
+
+		* "sumaria-2011"
+		* "sumaria-2012"
+		* "sumaria-2013"
+		* "sumaria-2014"
+		* "sumaria-2015"
+		* "sumaria-2016"
+		* "sumaria-2017"
+		* "sumaria-2018"
+		* "sumaria-2019"
+		* "sumaria-2020"
+		* "sumaria-2021"
+		* "sumaria-2022"
+
+
+   Recuerde que estos archivos debe de grabarlos en:
+
+         "D:\Gasto2022\Bases"
+
+
+3. Luego aplicar el siguiente Stata Do-file
+			
+		* 01_ConstrVarGastoIngreso2011-2022
